@@ -119,8 +119,8 @@ module.exports.generate = function (json, callback, version) {
             let fragment = fragments[i];
             if (i > 1) {
                 resultString = resultString + " ";
-                resultString = resultString.concat(fragment);
             }
+            resultString = resultString.concat(fragment);
         }
     } else {
         for (let fragment of fragments) {
